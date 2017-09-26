@@ -1,13 +1,11 @@
 {
-  "name": "how_far_hr",
+  "name": "my-node-project",
   "version": "1.1.0",
   "engines": {
     "node": "5.12.0"
   },
-  "description": "A small toy app showing HR progress with React and ES6",
-  "author": "Jon Deng <jondeng.com>",
-  "license": "MIT",
-  "private": false,
+  "description": "Trying out node and express",
+  "author": "Martin Hedlund",
   "scripts": {
     "start": "node dist/app.js",
     "dev-start": "webpack-dev-server --progress --colors --hot --inline",
