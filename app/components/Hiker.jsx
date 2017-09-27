@@ -11,7 +11,7 @@ const Hiker = ({image, progress}) => {
   };
   return (
     <div className="hiker" style={style}>
-      <img className="mainAvatar" src={image}></img>
+      <img className="mainAvatar" src={image} />
     </div>
   );
 };

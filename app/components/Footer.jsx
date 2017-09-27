@@ -1,7 +1,10 @@
 import React from 'react';
 
 const Footer = ({creator}) => (
-  <div>Created in React, Redux, Webpack and Express with ❤️  by {creator} 2016</div>
+    <div>
+        {console.log({creator})}
+        <div> {creator} 2017</div>
+    </div>
 );
 
 export default Footer;
